@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // !!!
 import './App.css'
 import CustomNavbar from './components/CustomNavbar'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <CustomNavbar />
       </header>
       <main>
-        <h2 className="text-center mt-5">IL CAROSELLO ANDRÀ QUA</h2>
+        <Home />
       </main>
     </>
   )
